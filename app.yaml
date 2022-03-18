@@ -1,0 +1,14 @@
+runtime: nodejs16
+
+instance_class: F2
+
+env_variables:
+  HOST: '0.0.0.0'
+  NODE_ENV: 'production'
+  DATABASE_NAME: 'strapiprod'
+  DATABASE_USER: 'postgres'
+  DATABASE_PASSWORD: 'YFGfamily89'
+  INSTANCE_CONNECTION_NAME: 'journalstrapi:us-central1:strapi'
+
+beta_settings:
+  cloud_sql_instances: 'journalstrapi:us-central1:strapi'
